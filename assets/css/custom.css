@@ -278,7 +278,7 @@
     margin-top: 30px
   }
 
-  .book {
+  article.book {
     border-bottom:1px solid #f2f2f2;
     padding: 20px 0;
   }
@@ -291,11 +291,19 @@
   }
 
   article.book a:hover img {
-    opacity: 0.9;
+    opacity: 0.8;
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
+  }
+
+  .fancybox-caption {
+    text-align: center;
+  }
+
+  .fancybox-caption a:hover {
+    text-decoration: none!important;
   }
 
   /**
